@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <title>Youtube</title>
+</head>
+<body class="bg-[#0F0F0F]">
+
+    <div class="container">
+        <div class="card">
+
+            <!--first navbar-->
+            <div class="first-nav  top-0 h-16 px-10 flex items-center justify-between ">
+                
+                    <div class="flex w-40 mr-10  items-center">
+                        <i class="material-icons mr-5">menu</i>
+                        <div class="flex items-center">
+                        <i class=" fa-brands fa-youtube text-red-600 text-2xl"></i> 
+                        <p class="text-lg font-semibold">YouTube</p>                        
+                        </div>
+                        
+                    </div>
+
+                    <div class="flex items-center space-x-4">
+                    <div id="search-bar">
+                        <input class=" bg-[#0F0F0F] border-gray-800 border-2 rounded-full w-[40rem] h-10 p-5" type="text" placeholder="Search">
+                    </div>
+                    <i class="material-icons">mic</i>
+                    </div>
+
+                    <div class="flex items-center space-x-5">
+                        <i class="material-icons">video_call</i>
+                        <i class="material-icons">notifications</i>
+                        <img class="rounded-full h-9 mr-3" src="images\dp3.jpg" alt="">
+                    </div>
+                
+
+            </div>
+
+            
+            <!--second navbar-->
+            <div class=" grid-content h-full overflow-scroll px-5 fixed left-[17rem]">
+
+            <div class=" recommendation flex flex-wrap space-x-2 top-0 bg-[#0f0f0f] pt-5 text-sm  pb-6 sticky ">
+                <p><a class="bg-[#1e1e1e] px-4 py-2 rounded-xl" href="#">All</a></p>
+                <p><a class="bg-[#1e1e1e] px-4 py-2 rounded-xl" href="#">CSS</a></p>
+                <p><a class="bg-[#1e1e1e] px-4 py-2 rounded-xl" href="#">Computer Science</a></p>
+                <p><a class="bg-[#1e1e1e] px-4 py-2 rounded-xl" href="#">Music</a></p>
+                <p><a class="bg-[#1e1e1e] px-4 py-2 rounded-xl" href="#">Gaming</a></p>
+                <p><a class="bg-[#1e1e1e] px-4 py-2 rounded-xl" href="#">Jenifa</a></p>
+                <p><a class="bg-[#1e1e1e] px-4 py-2 rounded-xl" href="#">Sketch Comedy</a></p>
+                <p><a class="bg-[#1e1e1e] px-4 py-2 rounded-xl" href="#">Live</a></p>
+                <p><a class="bg-[#1e1e1e] px-4 py-2 rounded-xl" href="#">Scene</a></p>
+                <p><a class="bg-[#1e1e1e] px-4 py-2 rounded-xl" href="#">Africa Music</a></p>
+                <p><a class="bg-[#1e1e1e] px-4 py-2 rounded-xl" href="#">Sales</a></p>
+                <p><a class="bg-[#1e1e1e] px-4 py-2 rounded-xl" href="#">Premier League</a></p>
+            </div>
+
+            <div class=" grid grid-cols-3 gap-5 grid-rows-3 ">
+
+                <div class="space-y-2">
+                    <img class="w-[22rem] h-48 rounded-lg "  src="images\flight.webp"  alt="">
+                    <div class="flex  "><p>Unlock Free Flight Ticket</p></div>
+                    <p class="text-sm text-gray-400 w-[22rem] " >Get a complimentary fligth ticket when you book your stay with us. Limiteed time offer!</p>
+                    <p class="text-gray-400 text-sm"><span class=" text-white font-bold ">Ad &middot;</span> AmberStudent</p>
+                </div>
+
+                <div class="space-y-2">
+                    <img class="w-[22rem] h-48 rounded-lg" src="images\yt2.webp" alt="">
+                    <div class="flex  ">
+                        <img class="h-9 mr-3 rounded-full" src="images\dp2.jpg" alt="">
+                        <p>Battle of York - Ryse Son of Rome</p></div>
+                    <p class="text-sm text-gray-400 w-[22rem] " >AFGuidesHD</p>
+                    <p class="text-gray-400 text-sm">7.8M views &middot; 2 years ago</p>
+                
+                </div>
+                <div class="space-y-2">
+                    <img class="h-48 w-[22rem] rounded-lg" src="images\yt1.webp" alt="">
+                    <div class="flex  ">
+                        <img class="rounded-full h-9 mr-3" src="images\dp3.jpg" alt="">
+                        <p>Coffe Shop &middot; Flutter Tutorial</p></div>
+                    <p class="text-sm text-gray-400 w-[22rem] " >Mitch Koko</p>
+                    <p class="text-gray-400 text-sm">4.3K views &middot; 3 days ago</p>
+                </div>
+
+                <div class="space-y-2">
+                    <img class="w-[22rem] h-48 rounded-lg "  src="images\clover.webp"  alt="">
+                    <div class="flex items-center  w-[22rem]">
+                        <img class="h-9 mr-3 rounded-full " src="images\dp1.jpg" alt="">
+                        <p>Black Clover: Sword of the Wizard King | Official Trailer #2 | Netflix </p>
+                    </div>
+                    <p class="text-sm text-gray-400 w-[22rem] " >Netflix Anime</p>
+                    <p class="text-gray-400 text-sm"> 1.6M views &middot; 6 days ago</p>
+                </div>
+
+                <div class="space-y-2">
+                    <img class="w-[22rem] h-48 rounded-lg" src="images\yt3.webp" alt="">
+                    <div class="flex  ">
+                        <img class="rounded-full h-9 mr-3" src="images\dp5.jpg" alt="">
+                        <p>Aragami 2-Stealth Kills-PC Gameplay</p></div>
+                    <p class="text-sm text-gray-400 w-[22rem] " >Swifty Unknown</p>
+                    <p class="text-gray-400 text-sm">3.1M views &middot; 1 years ago</p>
+                
+                </div>
+                <div class="space-y-2">
+                    <img class="h-48 w-[22rem] rounded-lg" src="images\yt4.webp" alt="">
+                    <div class="flex  ">
+                        <img class="rounded-full mr-3 h-9" src="images\dp4.jpg" alt="">                        <p>my wife left me. </p></div>
+                    <p class="text-sm text-gray-400 w-[22rem] " >TechLead</p>
+                    <p class="text-gray-400 text-sm">2.6M views views &middot; 3 years ago</p>
+                </div>
+
+
+                <div class="space-y-2">
+                    <img class="w-[22rem] h-48 rounded-lg "  src="images\clover.webp"  alt="">
+                    <div class="flex items-center  w-[22rem]">
+                        <img class="h-9 mr-3 rounded-full " src="images\dp1.jpg" alt="">
+                        <p>Black Clover: Sword of the Wizard King | Official Trailer #2 | Netflix </p>
+                    </div>
+                    <p class="text-sm text-gray-400 w-[22rem] " >Netflix Anime</p>
+                    <p class="text-gray-400 text-sm"> 1.6M views &middot; 6 days ago</p>
+                </div>
+
+                <div class="space-y-2">
+                    <img class="w-[22rem] h-48 rounded-lg" src="images\yt3.webp" alt="">
+                    <div class="flex  ">
+                        <img class="rounded-full h-9 mr-3" src="images\dp5.jpg" alt="">
+                        <p>Aragami 2-Stealth Kills-PC Gameplay</p></div>
+                    <p class="text-sm text-gray-400 w-[22rem] " >Swifty Unknown</p>
+                    <p class="text-gray-400 text-sm">3.1M views &middot; 1 years ago</p>
+                
+                </div>
+                <div class="space-y-2">
+                    <img class="h-48 w-[22rem] rounded-lg" src="images\yt4.webp" alt="">
+                    <div class="flex  ">
+                        <img class="rounded-full mr-3 h-9" src="images\dp4.jpg" alt="">                        <p>my wife left me. </p></div>
+                    <p class="text-sm text-gray-400 w-[22rem] " >TechLead</p>
+                    <p class="text-gray-400 text-sm">2.6M views views &middot; 3 years ago</p>
+                </div>
+
+
+
+                
+                
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <!--left navbar-->
+            <div class="left-navbar w-64 fixed hover:overflow-auto overflow-hidden h-full text-sm">
+
+                <div class="border-b-[1px] border-gray-700 pb-5">
+                    <ul class="space-y-5 px-10">
+                    <li><a class="flex items-center " href="#"><i class="material-icons mr-5">home</i>Home</a></li>
+                    <li><a class="flex items-center" href="#"><i class="material-icons mr-5">home</i>Shorts</a></li>
+                    <li><a class="flex items-center" href="#"><i class="material-icons mr-5">subscriptions</i>Subscriptions</a></li>
+                </ul>
+                </div>
+            
+                <div class="border-b-[1px] border-gray-700 pb-5">
+                    <ul class="space-y-5 px-10 mt-5">
+                    <li><a class="flex items-center" href="#"><i class="material-icons mr-5">video_library</i>Library</a></li>
+                    <li><a class="flex items-center" href="#"><i class="material-icons mr-5">history</i>History</a></li>
+                    <li><a class="flex items-center" href="#"><i class="fa-regular fa-clock text-lg mr-5"></i>Watch Later</a></li>
+                    <li><a class="flex items-center" href="#"><i class="fa-regular fa-thumbs-up text-lg mr-5"></i>Liked videos</a></li>
+                </ul>
+                </div>
+
+                <div class="border-b-[1px] border-gray-700 pb-5">
+                    <ul class="space-y-5 px-10 mt-5 ">
+                        <p class="mt-5 ">Subscriptions</p>
+                        <li><a class="flex items-center" href="#"><img class="h-7 rounded-full mr-4" src="images\ytmusic1.jpg"  alt="">Music</a></li>
+                        <li><a class="flex items-center" href="#"><img class="h-7 rounded-full mr-4" src="images\ytsports.jpg"  alt="">Sport</a></li>
+                        <li><a class="flex items-center" href="#"><img class="h-7 rounded-full mr-4" src="images\ytgame.jpg"  alt="">Gaming</a></li>
+                        <li><a class="flex items-center" href="#"><img class="h-7 rounded-full mr-4" src="images\ytnews.jpg"  alt="">News</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="border-b-[1px] border-gray-700 pb-5">
+                    <ul class="space-y-5 px-10 mt-5 ">
+                        <p class="mt-5 ">Explore</p>                
+                        <li><a class="flex items-center" href="#"><i class="material-icons mr-5">local_fire_department</i>Trending</a></li>
+                        <li><a class="flex items-center" href="#"><i class="material-icons mr-5">music_note</i>Music</a></li>
+                        <li><a class="flex items-center" href="#"><i class="material-icons mr-5">videogame_asset</i>Gaming</a></li>
+                        <li><a class="flex items-center" href="#"><i class="material-icons mr-5">chrome_reader_mode</i>News</a></li>
+                        <li><a class="flex items-center" href="#"><i class="material-icons mr-5">military_tech</i>Sport</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="border-b-[1px] border-gray-700 pb-5">
+                    <ul class="space-y-5 px-10 mt-5 ">
+                        <li><a class="flex items-center" href="#"><i class="material-icons mr-5">settings</i>Settings</a></li>
+                        <li><a class="flex items-center" href="#"><i class="material-icons mr-5">flag</i>Report history</a></li>
+                        <li><a class="flex items-center" href="#"><i class="material-icons mr-5">help</i>Help</a></li>
+                        <li><a class="flex items-center" href="#"><i class="material-icons mr-5">sms_failed</i>Send feedback</a></li>
+                    </ul>
+                </div>
+
+                <div class="border-b-[1px] border-gray-700 pb-5">
+                    
+                </div>
+
+
+                </div>
+                
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+body{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+li a{
+
+    background-color: #0f0f0f;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    height: 2.5rem;
+    width: 12rem;
+}
+
+
+li a:hover {
+    background-color: #1e1e1e;
+}
+
+p a:hover {
+    background-color: white;
+    color: #0f0f0f;
+}
+
+
+.left-navbar::-webkit-scrollbar{
+    width: 0.25rem;
+}
+
+.left-navbar::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 0.5rem;
+  }
+
+  .grid-content::-webkit-scrollbar{
+    width: 0.25rem;
+}
+.grid-content::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 0.5rem;
+  }
+
+.recommendation p{
+    margin-bottom: 1.5rem;
+
+}
